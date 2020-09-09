@@ -208,7 +208,7 @@ class FlutterLogin extends StatefulWidget {
     @required this.onSignup,
     @required this.onLogin,
     @required this.onRecoverPassword,
-    this.title = 'LOGIN',
+    this.title = '',
     this.logo,
     this.messages,
     this.theme,
@@ -556,7 +556,10 @@ class _FlutterLoginState extends State<FlutterLogin>
       ],
       child: Scaffold(
         // resizeToAvoidBottomInset: false,
-        body: Stack(
+        body: 
+        
+        
+        Stack(
           children: <Widget>[
             GradientBox(
               colors: [
